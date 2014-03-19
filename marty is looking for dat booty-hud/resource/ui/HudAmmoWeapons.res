@@ -1,0 +1,162 @@
+// DoodleHUD - edited by Doodles - http://doodlesstuff.com
+//
+"Resource/UI/HudAmmoWeapons.res"
+{
+	HudWeaponAmmo 
+	{
+		// this section moved from hudlayout.res
+		// no original properties
+		"fieldName" "HudWeaponAmmo"
+		"visible" 	"1"
+		"enabled" 	"1"
+		"xpos"		"c67"
+		"ypos"		"c69"
+		"wide"		"314"
+		"tall"		"240"
+	}
+	"AmmoBack"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"AmmoBack"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"98"
+		"tall"			"42"
+		"visible"		"1"
+		"enabled"		"1"	
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"border"		"NoBorder"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"DcHudNumbers"
+	}
+	"AmmoInClip"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInClip"
+		"font"			"DfHudNumbers"
+		"fgcolor"			"MartyHUD_Numbers"
+		"xpos"			"0"
+		"ypos"			"-6"
+		"zpos"			"5"
+		"wide"			"102"
+		"tall"			"54"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"west"	
+		"textinsetx"	"10"
+		"labelText"		"%Ammo%"
+	}
+	"AmmoInClipShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInClipShadow"
+		"font"			"DfHudNumbers"
+		"fgcolor"		"Black"
+		"xpos"			"1"
+		"ypos"			"-5"
+		"zpos"			"4"
+		"wide"			"102"
+		"tall"			"54"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"west"	
+		"textinsetx"	"10"
+		"labelText"		"%Ammo%"
+	}
+	"AmmoInReserve"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInReserve"
+		"font"			"DfHudAmmo"
+		"fgcolor"			"MartyHUD_Numbers"
+		"xpos"			"-7"
+		"ypos"			"12"
+		"zpos"			"8"
+		"wide"			"102"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"east"	
+		"textinsetx"	"10"	
+		"labelText"		"%AmmoInReserve%"
+	}
+	"AmmoInReserveShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoInReserveShadow"
+		"font"			"DfHudAmmo"
+		"fgcolor"		"Black"
+		"xpos"			"-6"
+		"ypos"			"13"
+		"zpos"			"7"
+		"wide"			"102"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"east"	
+		"textinsetx"	"10"	
+		"labelText"		"%AmmoInReserve%"
+	}
+	"AmmoNoClip"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoNoClip"
+		"font"			"DfHudNumbers"
+		"fgcolor"			"MartyHUD_Numbers"
+		"xpos"			"0"
+		"ypos"			"-6"
+		"zpos"			"5"
+		"wide"			"152"
+		"tall"			"54"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"west"	
+		"textinsetx"	"10"	
+		"labelText"		"%Ammo%"
+	}
+	"AmmoNoClipShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"AmmoNoClipShadow"
+		"font"			"DfHudNumbers"
+		"fgcolor"		"Black"
+		"xpos"			"1"
+		"ypos"			"-5"
+		"zpos"			"4"
+		"wide"			"152"
+		"tall"			"54"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"west"	
+		"textinsetx"	"10"	
+		"labelText"		"%Ammo%"
+	}
+
+	// Removed Stuff
+	"HudWeaponLowAmmoImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HudWeaponLowAmmoImage"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	"HudWeaponAmmoBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"HudWeaponAmmoBG"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+		"enabled"		"0"		
+	}
+}
+//
+// DoodleHUD - edited by Doodles - http://doodlesstuff.com
